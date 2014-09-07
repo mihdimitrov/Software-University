@@ -1,0 +1,17 @@
+using System;
+
+namespace AgesAfter10Years
+{
+    class AgesAfter10Years
+    {
+        static void Main()
+        {
+            //Set your ages
+            Console.Write("Set your ages:");
+            byte ages = byte.Parse(Console.ReadLine());
+           
+            //Calculate and write on console
+            Console.WriteLine("You will be {0} years old after 10 year",(ages+10));
+        }
+    }
+}
